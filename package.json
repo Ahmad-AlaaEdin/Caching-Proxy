@@ -4,11 +4,14 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js --port=3000 --origin=www.google.com"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "commander": "^13.1.0"
+    "axios": "^1.7.9",
+    "commander": "^13.1.0",
+    "ioredis": "^5.5.0"
   }
 }
